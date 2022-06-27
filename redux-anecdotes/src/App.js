@@ -11,7 +11,7 @@ const App = () => {
 
   useEffect(() => {
     dispatch(initialize())
-  }, [])
+  }, [dispatch])
 
   return (
     <div>
